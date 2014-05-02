@@ -5,9 +5,9 @@ var passport = require('passport'),
 module.exports = function() {
 	// Use facebook strategy
 	passport.use(new FacebookStrategy({
-			clientID: '455818271176818',
-			clientSecret: 'db6c579d1fcdc9a3980bc4aade0e3aaf',
-			callbackURL: 'http://local.domain:3000/auth/facebook/callback'
+			clientID: 'APP_ID',
+			clientSecret: 'APP_SECRET',
+			callbackURL: '/auth/facebook/callback'
 		},
 		function(accessToken, refreshToken, profile, done) {
 			User.findOne({
