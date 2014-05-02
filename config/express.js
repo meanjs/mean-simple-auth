@@ -40,7 +40,7 @@ module.exports = function() {
 
     // Configure routing
     require('../app/routes/index.server.routes')(app);
-    require('../app/routes/authentication.server.routes')(app);
+    require('../app/routes/users.server.routes')(app);
 	
 	// Setting the app router and static folder
 	app.use(express.static(path.resolve('./public')));
