@@ -2,7 +2,7 @@
 	"name": "MEAN",
 	"version": "0.0.1",
 	"dependencies": {
-		"express": "~4.1.0",
+		"express": "~4.19.2",
 		"express-session": "~1.0.2",
 		"body-parser": "~1.0.1",
 		"cookie-parser": "~1.0.1",
